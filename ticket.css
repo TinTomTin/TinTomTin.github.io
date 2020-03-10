@@ -1,0 +1,52 @@
+body {
+    font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+table {
+    width: 85%;
+    border-spacing: 0px;
+}
+
+.label
+{
+    color: #acacac;
+    font-size: 1.3em;
+}
+
+.data
+{
+    font-size: 1.6em;
+    padding-bottom: 0.8em;
+}
+
+.bold-data
+{
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-bottom: 0.8em;
+}
+
+.barcode {
+    background-image: url("barcode.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:6.5em;
+}
+
+.header
+{
+    height: 70px;
+    background-color: #293252;
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.footer
+{
+    height: 40px;
+    background-color: #293252;
+    color: #ffffff;
+    font-size: 1.0em;
+    font-weight: bold;
+}
