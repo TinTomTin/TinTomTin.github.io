@@ -1,22 +1,38 @@
 body {
-    font-family: Georgia; color: #444
+    font-family: Georgia; color: #444;
+    background-color: #181818;
+    
 
 }
 
+.page {
+    
+	max-width: 80em;
+	background: #f3f3f3;
+	margin: 30px auto;
+}
 
-.main-box{
-    background-color: #4dbfd9;
-    text-align: center;
+.profile-pic {
+    margin-right: 2em;
+}
+
+.profile-pic img {
+	width: 100%;
+	height: auto;
+	border-radius: 50px;
+}
+
+.title-box{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    border-bottom: 2px solid #4dbfd9;
     margin-top: 5em;
-    margin-left: 15em;
-    margin-right: 15em;
-    padding: 0.5em;
+    padding: 25px 35px;
 }
 
 .main-content{
-    margin-left: 15em;
-    margin-right: 15em;
-    background-color: #f5f5f5;
+    background-color: #f3f3f3;
 }
 
 .section-containter {
