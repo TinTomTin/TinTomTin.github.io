@@ -36,12 +36,13 @@ h3 {
 }
 
 .profile-pic img {
-	width: 100%;
+	width: 12em;
 	height: auto;
-	border-radius: 50px;
+	border-radius: 6em;
 }
 
 .contacts {
+    margin-top: 1.8em;
     text-align: left;
     color: #ffffff;
 }
