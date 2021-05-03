@@ -18,7 +18,7 @@
     <div class="page">
         <div class="title-box">
             <div class="profile-pic">
-                <img src="headshot.jpg" alt="Tomasz Zaniewski" />
+                <img src="profile.jpg" alt="Tomasz Zaniewski" />
             </div>
             <div>
                 <h1>Tomasz Zaniewski</h1>
@@ -27,9 +27,15 @@
             <div class="contacts">
                 <ul class="contact-list">
                     <li>email: tomasz.zaniewski@gmail.com</li>
-                    <li>linkedin</li>
                     <li>mobile: (+27) 836468736</li>
-                    <li>pdf</li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/tomasz-zaniewski-53b2b51" target="_blank">
+                            <img class="icon" src="linkedin-icon.png"/>                            
+                        </a>
+                        <a href="https://www.linkedin.com/in/tomasz-zaniewski-53b2b51" target="_blank">
+                            <img class="icon" src="pdf-icon.png"/>                            
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -65,10 +71,12 @@
                         <li>Docker</li>
                         <li>Zookeeper</li>
                         <li>Javascript</li>
+                        <li>JQuery</li>
                         <li>CSS</li>
                         <li>Graylog</li>
                         <li>Grafana</li>
                         <li>Prometheus</li>
+                        <li>RabbitMQ</li>
                     </ul>
                 </div>
             </div>
@@ -84,34 +92,27 @@
             <div class="section-containter-item2">
                 <h3>Backend Developer</h3>
                 <p class="duration-subtitle">September 2007 - Present</p>
-                <p>During this time I have worked on numerous projects at Allan Gray:
-                    The Domains System: A system for coordinating interaction between the numerous 3rd party
-                    systems
-                    used at the company.<br /><br />
+                <p>Most recent project worked on allows transactions originating from the front end to be processed
+                    straight through without requiring human intervention. This involves building the
+                    microservicesc, databases and Bpmn workflows that enable this as well as integrating with many of the other systems
+                    that are needed to process a transaction, such as the CRM system, the account management system, and api's developed by other domains.
+                    <br/><br/>
+                    Other projects include:<br/>
+                    Astute interface: Design and implementation of system that allowed Astute (external financial data aggregation company) to obtain investment information from Allan Gray.
+                    <br /><br />
+                    Communication Engine: Batch and on demand processing system used to gather data, generate and send out
+                    client communication of any kind to clients. This ranges from sms notifications to monthly statements to transaction confirmations and tax certificates.
+                    <br /><br />
+                    Digital Authorization solution: Design and implementation of solution that allowed brokers to submit transactions on clients behalf and obtain authorization from client digitally witout the need to fill out forms.
+                    <br /><br />
 
-                    Asisa project: Extraction and aggregation of fund information from data sources within the
-                    company for upload to ASISA.
-                    Astute interface: Design of components to be used to allow Astute to access Allan Gray Data.
+                    The Domains System: A system for coordinating interaction between the numerous 3rd party
+                    systems used at the company.
+                    
                     <br /><br />
-                    Communication Engine: This is an in house system used to gather data, generate and send out
-                    client communication of any kind to Allan Gray clients. This ranges from sms notifications
-                    to
-                    monthly statements, transaction confirmations and tax certificates.
-                    <br /><br />
-                    Digital Authorization solution
-                    <br /><br />
-                    Complex Transactions: Allowing transactions originating from the front end to be processed
-                    straight through to the end instead of requiring human interaction. Building the
-                    microservices,
-                    databases and bpmn workflows that enable this. Integrating with many of the other systems
-                    that
-                    are needed to process a transaction, such as the CRM system, the account management system,
-                    message queueing subsystem.
-                    <br /><br />
-                    Migrating of architecture from monolith to micro services. From C# to Scala and Golang.
-                    Implementing monitoring and alerting using tools such as Grafana, Prometheus, Graylog and
-                    Pagerduty.
-                    Gitlab, Docker, Kubernetes, Gitlab CD\CI.
+                    Migrating of architecture from monolith to micro services. Migrating code from C# to Scala and Golang.
+                    Implementing monitoring and alerting of all components of the solution. 
+                    (Stack: Docker, Kubernetes, Scala, Golang, MS SQL)
                 </p>
             </div>
         </div>
@@ -120,25 +121,20 @@
                 <h2>Saratoga Software</h2>
             </div>
             <div class="section-containter-item2">
-                <h3>Developer \ Architect</h3>
+                <h3>Developer \ Solution Designer</h3>
                 <p class="duration-subtitle">December 2005 - September 2007</p>
                 <p>Member of a team of 3 responsible for the design and implementation of an Electricity meter
-                    management system for our client. I was responsible for the mobile subsystem of the project.
+                    management system for the client. I was responsible for the mobile subsystem of the project.
                     This included building the software to be used on Windows Mobile devices, the
                     web services the devices would communicate with, and the interface to the RF unit used for
                     communication with the physical meter.
                     <br /><br />
-                    The mobile devices used RF hardware to gather information about the meter installed at the
-                    location.
-                    They would be used to scan meter serial numbers, capture GPS co-ordinates and other
-                    information,
-                    take pictures of the installation, and upload this to the central server.
+                    The mobile devices used custom built RF hardware to gather information about the meter installed at the
+                    location. They would be used to scan meter serial numbers, capture GPS co-ordinates and capture readings from the meter, this would be uploaded the central server.
                     <br /><br />
                     This has exposed me to a number of cutting edge technologies at the time such as the .net
-                    compact framework,
-                    interfacing with GPS hardware, Bluetooth and GPRS communication as well as RF communication.
-                    I
-                    have also gained significant experience in higher level aspects of system design.
+                    compact framework, interfacing with GPS hardware, Bluetooth and RF communication.
+                    I have also gained significant experience in higher level aspects of system design.
                 </p>
             </div>
         </div>
@@ -151,9 +147,7 @@
                 <p class="duration-subtitle">August 2005 - November 2005</p>
                 <p>Development of the client side application of the Kinetic Mobile marketing system. The
                     application was written in C# for the .net compact framework, and intended for use on Windows CE
-                    mobile
-                    devices.The application allowed sales agents to place orders and manage merchandise using their
-                    mobile device.
+                    mobile devices.The application allowed sales agents to place orders and manage stock using the mobile device.
                     <br /><br />
                     The job has exposed me to the .net mobile framework.
                     Reason for leaving: Poor development environment and lack of organization
