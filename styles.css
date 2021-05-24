@@ -35,10 +35,6 @@ h3 {
 	border-radius: 6em;
 }
 
-.smaller-h3 {
-    font-size: 1.2em;
-}
-
 .page {
 	max-width: 80em;
 	background: #f3f3f3;
@@ -154,8 +150,8 @@ h3 {
 @media only screen and (max-width: 500px){
 
     h1 {
-        font-size: 1.2em;
-        font-weight: 500;
+        font-size: 1em;
+        font-weight: 600;
         font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
     }
 
@@ -171,16 +167,44 @@ h3 {
         margin: 0.1em 0em;
     }
 
-    p {
+    h4 {
         font-size: 0.6em;
+        margin: 0.2em 0em;
+    }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    .page{
+        border-radius: 1em;
     }
 
     .title-box{
+        flex-direction: column;
         margin-top: 2em;
-        padding: 1em 1em;
+        padding: 1em 0.8em;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
     }
+
+    .title-box div:last-child {
+        margin-left: 0em;
+    }
+
+    .contacts {
+        margin-top: 0em;
+    }
+
+    .contact-list{
+        margin: 0em;
+        padding-left: 0em;
+    }
+    
+    .contact-list > li {
+        font-size: small;
+    }
+    
 
     .icon {
         margin-top: 0.1em;
@@ -188,15 +212,19 @@ h3 {
         width: 1em;
     }
 
+    .skill-list {
+        margin: 0.3em 0em;
+    }
+
     .skill-list > li{
         padding: 0.15em;
         margin-bottom: 0.2em;
         border-radius: 0.3em;
-        font-size: medium;
+        font-size: small;
     }
 
     .profile-pic {
-        margin-right: 2em;
+        margin: auto;
     }
     
     .profile-pic img {
@@ -207,7 +235,11 @@ h3 {
 
     .section-containter {
         flex-direction: column;
-        padding: 0px 10px;
+        padding: 0px 0.8em;
+    }
+
+    .duration-subtitle {
+        margin-bottom: 1em;
     }
 
 }
