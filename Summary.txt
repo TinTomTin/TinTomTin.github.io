@@ -1,0 +1,13 @@
+
+
+Summary
+
+I enjoy seeing a solution materialize from ideas on a whiteboard to a working system in production and the satisfaction of knowing that the ideas work, and make the work of others easier and more efficient. Programming is a perfect craft for achieving this, and ever since the first program I wrote (It would tell you if it is Thursday or not) in Turbo Pascal's nostalgic yellow on blue IDE, I knew this is what I want to do. 
+
+I am a software developer with over 15 years of experience in the field. I specialize in backend development, but have also worked on projects that involve front end development. I have experience in all phases of the SDLC, from clarifying requirements, to implementation, integration with other systems to automation of testing and monitoring of the solution. 
+
+I am also drawn to this field because one can never stop learning. There is always something new to explore, be it a language, a paradigm, a new framework. 
+
+I have experience in the following: C#, Scala, Golang, dotnet, dotnet core, SQL, asp.net mvc, Entity Framework Core, REST, HTML, JSON, XML, Camunda, Git Gitlab CI, Linux, Windows
+
+I am familiar with: Java, Kubernetes, Docker, Zookeeper, Javascript, JQuery, CSS, Graylog, Grafana, Prometheus, RabbitMQ 
